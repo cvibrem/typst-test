@@ -37,9 +37,9 @@
   ]
 ][
   #rect(width: 100%, height: 54pt, stroke: border, radius: 9pt, inset: (x: 6pt, y: 4pt))[
-    Date d'émission: #h(6pt) 01/02/2018 \
-    #text(size: 8pt, weight: 800)[TOTAL A PAYER HTG :] #h(1fr) #text(size: 9.5pt, weight: 800)[8,105.33] \
-    Date limite de paiement: #h(6pt) 12/02/2018
+    Date d'émission: #h(6pt) 01/10/2026 \
+    #text(size: 8pt, weight: 800)[TOTAL A PAYER HTG :] #h(1fr) #text(size: 9.5pt, weight: 800)[6,250.25] \
+    Date limite de paiement: #h(6pt) 12/10/2026
   ]
 ]
 
@@ -48,8 +48,12 @@
 // ---------- A / B (equal height) ----------
 #grid(columns: (1fr, 1fr), gutter: 4pt)[
   #card-fixed(title-style[A- Vos coordonnées], [
-    #grid(columns: (52pt, 1fr), row-gutter: 4.5pt, gutter: 3pt)[
-      #text(weight: 700)[Référence]
+    #grid(columns: (62pt, 1fr), row-gutter: 4.5pt, gutter: 3pt)[
+      #text(weight: 700)[Nom Complet]
+    ][
+      : Jane Doe
+    ][
+      #text(weight: 700)[Adresse]
     ][
       : FONTAMARA 47 LOUIS ROI 1 IMP ST JUDE
     ][
@@ -73,7 +77,7 @@
     ][
       : Ouest
     ]
-  ], 106pt)
+  ], 118pt)
 ][
   #card-fixed(title-style[B- Référence de votre facture], [
     #grid(columns: (1fr, auto), gutter: 4pt, row-gutter: 4.5pt)[
@@ -83,11 +87,11 @@
     ][
       #text(weight: 700)[Numéro de Facture]
     ][
-      #text(weight: 700)[F042018021000003457]
+      #text(weight: 700)[F042026101000003457]
     ][
       DATE D'EMISSION :
     ][
-      01/02/2018
+      01/10/2026
     ][
       CONDITION FISCALE :
     ][
@@ -96,7 +100,7 @@
     #v(4pt)
     #text(weight: 700)[VOTRE AGENCE EDH :] AGENCE~~CARREFOUR \
     Visitez notre site #underline[www.edh.ht]
-  ], 106pt)
+  ], 118pt)
 ]
 
 #v(3pt)
@@ -168,19 +172,19 @@
           inset: (x: 1.5pt, y: 1.8pt),
           align: (left, right, right),
           [#text(size: 5.5pt, weight: 700)[Mois]], [#text(size: 5.5pt, weight: 700)[Cons.]], [#text(size: 5.5pt, weight: 700)[Puis.]],
-          [#text(size: 5.5pt)[Fév/17]], [#text(size: 5.5pt)[48]], [#text(size: 5.5pt)[0.000]],
-          [#text(size: 5.5pt)[Mar/17]], [#text(size: 5.5pt)[71]], [#text(size: 5.5pt)[0.000]],
-          [#text(size: 5.5pt)[Avr/17]], [#text(size: 5.5pt)[77]], [#text(size: 5.5pt)[0.000]],
-          [#text(size: 5.5pt)[Mai/17]], [#text(size: 5.5pt)[58]], [#text(size: 5.5pt)[0.000]],
-          [#text(size: 5.5pt)[Jun/17]], [#text(size: 5.5pt)[78]], [#text(size: 5.5pt)[0.000]],
-          [#text(size: 5.5pt)[Jui/17]], [#text(size: 5.5pt)[87]], [#text(size: 5.5pt)[0.000]],
-          [#text(size: 5.5pt)[Aoû/17]], [#text(size: 5.5pt)[102]], [#text(size: 5.5pt)[0.000]],
-          [#text(size: 5.5pt)[Sep/17]], [#text(size: 5.5pt)[83]], [#text(size: 5.5pt)[0.000]],
-          [#text(size: 5.5pt)[Oct/17]], [#text(size: 5.5pt)[98]], [#text(size: 5.5pt)[0.000]],
-          [#text(size: 5.5pt)[Nov/17]], [#text(size: 5.5pt)[93]], [#text(size: 5.5pt)[0.000]],
-          [#text(size: 5.5pt)[Dec/17]], [#text(size: 5.5pt)[69]], [#text(size: 5.5pt)[0.000]],
-          [#text(size: 5.5pt)[Jan/18]], [#text(size: 5.5pt)[62]], [#text(size: 5.5pt)[0.000]],
-          [#text(size: 5.5pt)[Fév/18]], [#text(size: 5.5pt)[62]], [#text(size: 5.5pt)[0.000]],
+          [#text(size: 5.5pt)[Oct/25]], [#text(size: 5.5pt)[48]], [#text(size: 5.5pt)[0.000]],
+          [#text(size: 5.5pt)[Nov/25]], [#text(size: 5.5pt)[71]], [#text(size: 5.5pt)[0.000]],
+          [#text(size: 5.5pt)[Déc/25]], [#text(size: 5.5pt)[77]], [#text(size: 5.5pt)[0.000]],
+          [#text(size: 5.5pt)[Jan/26]], [#text(size: 5.5pt)[58]], [#text(size: 5.5pt)[0.000]],
+          [#text(size: 5.5pt)[Fév/26]], [#text(size: 5.5pt)[78]], [#text(size: 5.5pt)[0.000]],
+          [#text(size: 5.5pt)[Mar/26]], [#text(size: 5.5pt)[87]], [#text(size: 5.5pt)[0.000]],
+          [#text(size: 5.5pt)[Avr/26]], [#text(size: 5.5pt)[102]], [#text(size: 5.5pt)[0.000]],
+          [#text(size: 5.5pt)[Mai/26]], [#text(size: 5.5pt)[83]], [#text(size: 5.5pt)[0.000]],
+          [#text(size: 5.5pt)[Jun/26]], [#text(size: 5.5pt)[98]], [#text(size: 5.5pt)[0.000]],
+          [#text(size: 5.5pt)[Jui/26]], [#text(size: 5.5pt)[93]], [#text(size: 5.5pt)[0.000]],
+          [#text(size: 5.5pt)[Aoû/26]], [#text(size: 5.5pt)[69]], [#text(size: 5.5pt)[0.000]],
+          [#text(size: 5.5pt)[Sep/26]], [#text(size: 5.5pt)[62]], [#text(size: 5.5pt)[0.000]],
+          [#text(size: 5.5pt)[Oct/26]], [#text(size: 5.5pt)[62]], [#text(size: 5.5pt)[0.000]],
         )
       ][
         #let chart-h = 68pt
@@ -222,7 +226,7 @@
               #box(height: 62 / 102 * 68pt, width: 8pt, fill: rgb("#222222"))
             ]
             #line(length: 100%, stroke: 0.6pt)
-            #grid(columns: (12pt, 12pt, 12pt, 12pt, 12pt, 12pt, 12pt, 12pt, 12pt, 12pt, 12pt, 12pt, 12pt))[#text(size: 4.2pt)[2017-Fev]][#text(size: 4.2pt)[Mar]][#text(size: 4.2pt)[Avr]][#text(size: 4.2pt)[Mai]][#text(size: 4.2pt)[Jun]][#text(size: 4.2pt)[Jul]][#text(size: 4.2pt)[Aou]][#text(size: 4.2pt)[Sep]][#text(size: 4.2pt)[Oct]][#text(size: 4.2pt)[Nov]][#text(size: 4.2pt)[Dec]][#text(size: 4.2pt)[Jan]][#text(size: 4.2pt)[2018-Fev]]
+            #grid(columns: (12pt, 12pt, 12pt, 12pt, 12pt, 12pt, 12pt, 12pt, 12pt, 12pt, 12pt, 12pt, 12pt))[#text(size: 4.2pt)[2025-Oct]][#text(size: 4.2pt)[Nov]][#text(size: 4.2pt)[Dec]][#text(size: 4.2pt)[Jan]][#text(size: 4.2pt)[Fev]][#text(size: 4.2pt)[Mar]][#text(size: 4.2pt)[Avr]][#text(size: 4.2pt)[Mai]][#text(size: 4.2pt)[Jun]][#text(size: 4.2pt)[Jul]][#text(size: 4.2pt)[Aou]][#text(size: 4.2pt)[Sep]][#text(size: 4.2pt)[2026-Oct]]
           ]
         ]
       ]
@@ -236,7 +240,7 @@
       #grid(columns: (1fr, auto))[
         #text(weight: 700)[Période du:]
       ][
-        #underline[01/12/2017 - 01/02/2018 = 62 Jours]
+        #underline[31/07/2026 - 01/10/2026 = 62 Jours]
       ]
       #v(6pt)
       #grid(columns: (1fr, 24pt, auto), row-gutter: 3pt, gutter: 3pt)[
@@ -304,15 +308,15 @@
 #v(3pt)
 
 // ---------- H ----------
-#card(grid(columns: (auto, 1fr), gutter: 10pt)[#title-style[H- Votre situation]][#text(size: 7.5pt)[à la date du~~~01/02/2018]])[
+#card(grid(columns: (auto, 1fr), gutter: 10pt)[#title-style[H- Votre situation]][#text(size: 7.5pt)[à la date du~~~01/10/2026]])[
   #grid(columns: (1fr, auto, auto, auto), gutter: 6pt, row-gutter: 3pt)[
-    1 - Rappel montant dû au~~~01/02/2018~~/ Facture antérieure
+    1 - Rappel montant dû au~~~01/10/2026~~/ Facture antérieure
   ][
     :
   ][
     HTG
   ][
-    #align(right)[7,626.59]
+    #align(right)[5,771.51]
   ][
     2- Vos règlements enregistrés
   ][
@@ -338,9 +342,9 @@
   ][
     #text(size: 8.5pt, weight: 800)[HTG]
   ][
-    #text(size: 8.5pt, weight: 800)[8,105.33]
+    #text(size: 8.5pt, weight: 800)[6,250.25]
   ][
-    A payer avant le~~12/02/2018
+    A payer avant le~~12/10/2026
   ]
   #v(1pt)
   Le paiement intégral du montant dû avant la date limite est exigé pour éviter tout débranchement. EDH vous remercie pour le paiement de votre facture. \
@@ -364,7 +368,7 @@
       #grid(columns: (46pt, 1fr), gutter: 5pt, align: (center, left))[
         #image("edhLogo.jpeg", width: 40pt)
       ][
-        #align(center)[#text(size: 10pt)[Duplicata]] \ #text(size: 9.5pt)[Récépissé Facture du~~~01/02/2018]
+        #align(center)[#text(size: 10pt)[Duplicata]] \ #text(size: 9.5pt)[Récépissé Facture du~~~01/10/2026]
       ]
     ]
   ][
@@ -377,7 +381,7 @@
       ][
         #text(size: 6.5pt, weight: 700)[Date limite de paiement:]
       ][
-        #text(size: 6.5pt)[12/02/2018]
+        #text(size: 6.5pt)[12/10/2026]
       ]
     ]
   ]
@@ -389,7 +393,7 @@
       #grid(columns: (1fr, auto), gutter: 5pt)[
         #text(size: 8pt, weight: 800)[MONTANT TOTAL DÛ HTG]
       ][
-        #text(size: 8.5pt, weight: 800)[8,105.33]
+        #text(size: 8.5pt, weight: 800)[6,250.25]
       ]
       #v(6pt)
       #grid(columns: (auto, auto), gutter: 6pt)[
