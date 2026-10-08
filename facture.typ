@@ -38,7 +38,7 @@
 ][
   #rect(width: 100%, height: 54pt, stroke: border, radius: 9pt, inset: (x: 6pt, y: 4pt))[
     Date d'émission: #h(6pt) 01/10/2026 \
-    #text(size: 8pt, weight: 800)[TOTAL A PAYER HTG :] #h(1fr) #text(size: 9.5pt, weight: 800)[6,250.25] \
+    #text(size: 8pt, weight: 800)[TOTAL A PAYER HTG :] #h(1fr) #text(size: 9.5pt, weight: 800)[1,250.25] \
     Date limite de paiement: #h(6pt) 12/10/2026
   ]
 ]
@@ -342,7 +342,7 @@
   ][
     #text(size: 8.5pt, weight: 800)[HTG]
   ][
-    #text(size: 8.5pt, weight: 800)[6,250.25]
+    #text(size: 8.5pt, weight: 800)[1,250.25]
   ][
     A payer avant le~~12/10/2026
   ]
@@ -393,7 +393,7 @@
       #grid(columns: (1fr, auto), gutter: 5pt)[
         #text(size: 8pt, weight: 800)[MONTANT TOTAL DÛ HTG]
       ][
-        #text(size: 8.5pt, weight: 800)[6,250.25]
+        #text(size: 8.5pt, weight: 800)[1,250.25]
       ]
       #v(6pt)
       #grid(columns: (auto, auto), gutter: 6pt)[
