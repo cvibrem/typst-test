@@ -1,5 +1,5 @@
 // FACTURE EDH — reproduction Typst (1 page Letter)
-#set page(paper: "us-letter", margin: (x: 6mm, y: 4mm))
+#set page(paper: "us-letter", margin: (x: 6mm, y: 6mm))
 #set text(font: "DejaVu Sans", size: 7pt, fill: rgb("#111111"))
 #set par(spacing: 0.55em, leading: 0.8em)
 
@@ -48,26 +48,26 @@
 // ---------- A / B (equal height) ----------
 #grid(columns: (1fr, 1fr), gutter: 4pt)[
   #card-fixed(title-style[A- Vos coordonnées], [
-    #grid(columns: (62pt, 1fr), row-gutter: 4.5pt, gutter: 3pt)[
+    #grid(columns: (62pt, 1fr), row-gutter: 6.5pt, gutter: 3pt)[
       #text(weight: 700)[Nom Complet]
     ][
-      : Jane Doe
+      : JEAN-BAPTISTE JEHU ELAM S. UZZA SABTAR
     ][
       #text(weight: 700)[Adresse]
     ][
-      : FONTAMARA 47 LOUIS ROI 1 IMP ST JUDE
+      : 5, RUE LA VICTOIRE, CARADEUX, 2E BELLEVUE TABARRE
     ][
       #text(weight: 700)[Propriété]
     ][
-      : RUE LOUIS ROI II 11 C
+      : RUE LA VICTOIRE #5
     ][
       #text(weight: 700)[Loc]
     ][
-      : BIZOTON 51
+      : T2E
     ][
       #text(weight: 700)[Commune]
     ][
-      : Carrefour
+      : Tabarre
     ][
       #text(weight: 700)[District]
     ][
@@ -80,7 +80,7 @@
   ], 118pt)
 ][
   #card-fixed(title-style[B- Référence de votre facture], [
-    #grid(columns: (1fr, auto), gutter: 4pt, row-gutter: 4.5pt)[
+    #grid(columns: (1fr, auto), gutter: 4pt, row-gutter: 6.5pt)[
       REFERENCE DE PAIEMENT :
     ][
       2006921068-85
@@ -98,7 +98,7 @@
       Consommateur Final
     ]
     #v(4pt)
-    #text(weight: 700)[VOTRE AGENCE EDH :] AGENCE~~CARREFOUR \
+    #text(weight: 700)[VOTRE AGENCE EDH :] AGENCE~~TABARRE \
     Visitez notre site #underline[www.edh.ht]
   ], 118pt)
 ]
@@ -108,30 +108,30 @@
 // ---------- C / D (equal height) ----------
 #grid(columns: (1fr, 1fr), gutter: 4pt)[
   #card-fixed(title-style[C- Adresse du Branchement], [
-    RUE LOUIS ROI II 11 C \
-    BIZOTON 51 \
-    POT: GRA015B \
+    RUE LA VICTOIRE \
+    TABARRE \
+    POT: GBD015B \
     #v(2pt)
     #grid(columns: (auto, auto, auto, auto, auto, auto), gutter: 4pt)[
       #text(weight: 700)[Route:]
     ][
-      04
+      02
     ][
       #text(weight: 700)[Itinéraire:]
     ][
-      0001
+      0021
     ][
       #text(weight: 700)[AOL:]
     ][
-      810
+      410
     ]
   ], 74pt)
 ][
-  #card-fixed(grid(columns: (1fr, auto))[#title-style[D- Votre contrat]][#title-style[NIC : 2006921]], [
+  #card-fixed(grid(columns: (1fr, auto))[#title-style[D- Votre contrat]][#title-style[NIC : 3106921]], [
     #grid(columns: (86pt, 1fr), gutter: 3pt, row-gutter: 3pt)[
       #text(weight: 700)[Titulaire]
     ][
-      :
+      : JEAN-BAPTISTE JEHU ELAM S. UZZA SABTAR
     ][
       #text(weight: 700)[Tarif]
     ][
@@ -348,7 +348,7 @@
   ]
   #v(1pt)
   Le paiement intégral du montant dû avant la date limite est exigé pour éviter tout débranchement. EDH vous remercie pour le paiement de votre facture. \
-  Pour toutes anomalies constatées sur le réseau électrique, appelez le 2212-2212.
+
   #v(1pt)
   #text(weight: 700)[N.B : Désormais, vous pouvez payer vos factures d'Electricité depuis le réseau lajancash et aussi par Carte de Crédit.]
 ]
@@ -373,7 +373,7 @@
     ]
   ][
     #block(inset: (x: 6pt, y: 4pt))[
-      #align(right)[#text(size: 9.5pt, weight: 700)[NIC : 2006921]] \
+      #align(right)[#text(size: 9.5pt, weight: 700)[NIC : 3106921]] \
       #grid(columns: (auto, 1fr), gutter: 3pt)[
         #text(size: 6.5pt, weight: 700)[REFERENCE DE PAIEMENT]
       ][
@@ -388,7 +388,7 @@
   #line(length: 100%, stroke: thin)
   #block(width: 100%, inset: (x: 6pt, y: 4pt))[
     #grid(columns: (1fr, 1fr), gutter: 6pt)[
-      #text(size: 7pt, weight: 700)[TITULAIRE DU CONTRAT] \ #v(4pt) #text(size: 7pt, weight: 700)[ADRESSE DU BRANCHEMENT] \ RUE LOUIS ROI II 11 C \ #text(weight: 700)[LOC]~BIZOTON 51 \ #text(weight: 700)[TARIF]~Res
+      #text(size: 7pt, weight: 700)[TITULAIRE DU CONTRAT] \ #v(4pt) #text(size: 7pt, weight: 700)[ADRESSE DU BRANCHEMENT] \ RUE LA VICTOIRE \ #text(weight: 700)[LOC]~T2E \ #text(weight: 700)[TARIF]~Res
     ][
       #grid(columns: (1fr, auto), gutter: 5pt)[
         #text(size: 8pt, weight: 800)[MONTANT TOTAL DÛ HTG]
@@ -399,11 +399,11 @@
       #grid(columns: (auto, auto), gutter: 6pt)[
         #text(weight: 700)[Route:]
       ][
-        04
+        02
       ][
         #text(weight: 700)[Itiner:]
       ][
-        0001
+        0021
       ]
     ]
     #v(4pt)
